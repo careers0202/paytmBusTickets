@@ -71,7 +71,7 @@ class Home extends Component {
         const { from, to, date, errorMsg } = this.state;
         return (
             <div>
-                <div>
+                <div className="text-center text-danger">
                     <b>No Wallet KYC Required</b>
                     <span>&#128522;</span>
                     <span>to pay using UPI on Paytm.</span>
@@ -81,7 +81,7 @@ class Home extends Component {
                 <div className="paytmOptions">
                     <div>
                         <i className="fa-solid fa-mobile-screen"></i>
-                        <Link to="/recharge"><p>Mobile</p></Link>
+                        <Link to="/recharge"><p>Mobiles</p></Link>
                     </div>
                     <div>
                         <i className="fa-solid fa-mobile-screen"></i>
