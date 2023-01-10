@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    min-width: 1000px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // box-shadow: 0 5px 20px rgb(0 41 112 / 10%);
+    padding: 10px 0;
+}
+
+nav b {
+    margin-right: 10px;
+}
+
+.loginBtn {
+    background-color: #00baf2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* font-weight: 500; */
+    padding: 5px 10px;
+
+    &:hover {
+        background-color: rgb(18, 70, 211);
+    }
+    > img {
+        height: 20px;
+        margin-left: 10px;
+    }
+}
+
+
+header+div {
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+
+.paytmOptions {
+    background-color: #012b72;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    > div {
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+
+.container {
+    margin: 40px auto;
+}
+
+i {
+    font-size: 24px;
+}
+
+.bookingform {
+    background: #ffffff;
+    // box-shadow: 0 2px 6px 0 hsl(0deg 0% 54% / 25%);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 15px;
+    margin-top: -90px;
+}
+
+.travelOptions {
+    display: flex;
+    align-items: center;
+}
+
+.travelOptions>div {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.journeyDates {
+    margin: 20px 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid red;
+    padding: 5px;
+}
+
+.avatar {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #00b9f5;
+    border: none;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.offerContainer>h3 {
+    text-align: center;
+    width: 80px;
+    margin: auto;
+    border-bottom: 2px solid #00b9f5;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.offers::-webkit-scrollbar {
+    display: none;
+}
+
+.offers {
+    display: flex;
+    overflow: auto;
+}
+
+.offers>div {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    // box-shadow: 0 2px 6px 0 hsl(0deg 0% 54% / 25%);
+    overflow: hidden;
+    margin-right: 20px;
+    flex: 0 0 200px;
+}
+
+.offers img {
+    width: 200px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.chatbot {
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    z-index: 2;
+}
+
+.offerNote {
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    /* stack order of elements */
+}
+
+nav b:first-child {
+    color: red
+}
+
+nav b:last-child {
+    color: green
+}
+
+nav b:nth-child(3) {
+    color: blue;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: rgb(255, 192, 245);
+}
+
+a:active {
+    color: green;
+}
+
+.highlight::first-line {
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3::selection {
+    background-color: red;
+    color: blue;
+}
+
+ul li::before {
+    content: '\01F600 ';
+}
+
+ul li::after {
+    content: ' ?';
+    color: red;
+}

@@ -1,0 +1,28 @@
+.btn-primary {
+  background-color: green;
+  color: white;
+  width: 100px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  ;
+}
+
+.car {
+  color: red;
+  background-color: lightgrey;
+  padding: 10px;
+  border: 1px dotted green;
+}
+
+.card {
+  background-color: white;
+  border: 1px dotted blue;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.search {
+  margin: 10px 0;
+}

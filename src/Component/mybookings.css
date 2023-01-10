@@ -1,0 +1,16 @@
+.bookedItem {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.busDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+button {
+    width: 140px;
+}

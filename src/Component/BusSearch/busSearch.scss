@@ -1,0 +1,15 @@
+@import '../../scss/variables.scss';
+
+.busItem {
+    border: 1px solid $redcolor;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+}
+
+input {
+    border: 1px solid $redcolor;
+}
