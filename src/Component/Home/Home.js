@@ -71,7 +71,7 @@ class Home extends Component {
         const { from, to, date, errorMsg } = this.state;
         return (
             <div>
-                <div className="text-center text-danger">
+                <div className="text-center text-warning">
                     <b>No Wallet KYC Required</b>
                     <span>&#128522;</span>
                     <span>to pay using UPI on Paytm.</span>
