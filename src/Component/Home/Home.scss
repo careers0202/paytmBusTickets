@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin-top: 5px;
     font-family: sans-serif;
     font-weight: 300;
     font-size: 12px;
@@ -34,7 +34,8 @@ nav b {
     &:hover {
         background-color: rgb(18, 70, 211);
     }
-    > img {
+
+    >img {
         height: 20px;
         margin-left: 10px;
     }
@@ -54,7 +55,8 @@ header+div {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    > div {
+
+    >div {
         color: white;
         padding: 10px;
         text-align: center;
